@@ -1,0 +1,45 @@
+h1 {
+    color: rgb(242, 241, 241);
+    background-color: #ff3333;
+    padding: 20px;
+    text-align: center;
+}
+h2{
+   background-color: burlywood;
+    color:blue;
+    padding: 15px;
+}
+section{
+    text-align: center;
+    background-image: url("time.jpeg");
+    padding: 410px;
+
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    background-image: "time.jpeg";
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+
+
+.countdown-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.countdown {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #090909;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+body.expired {
+    background-color: #ff3333;
+}
